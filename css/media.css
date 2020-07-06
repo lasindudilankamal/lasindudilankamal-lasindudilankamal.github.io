@@ -1,0 +1,106 @@
+/* Small devices (mobile phones, 320px and up) */
+@media (max-width: 991px) { 
+    nav .navbar-brand img {
+        width: 150px;
+    }
+    nav .navbar-nav .nav-item .nav-link,nav .navbar-nav .nav-item .nav-link:hover,nav .navbar-nav .nav-item .nav-link:active,nav .navbar-nav .nav-item .nav-link:focus {
+        margin: 0;
+    }
+    nav .navbar-nav .nav-item .m-reqdemo-btn, nav .navbar-nav .nav-item .m-reqdemo-btn:hover, nav .navbar-nav .nav-item .m-reqdemo-btn:active, nav .navbar-nav .nav-item .m-reqdemo-btn:focus {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+    .department-sec img.topic-logo {
+        width: 138px;
+        height: 100%;
+        margin-right: 12px;
+    }
+    .department-sec .main-topic {
+        padding: 5px 0 0 0;
+    }
+ }
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .hero-banner .details {
+        padding:8rem 0;
+    }
+    .hero-banner .hero-main-topic {
+        font-size: 2.1rem;
+        font-weight: 800;
+    }
+    .hero-banner .hero-sub-topic {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .newsletter-sec .white-box {
+        background-color: #fff;
+        padding: 35px 15px;
+    }
+    .newsletter-sec .form input[type="email"] {
+        width: 69%;
+    }
+    .newsletter-sec .form .signup-btn {
+        padding: 6px 5px;
+    }
+    .backToTop {
+        display: none;
+        position: fixed;
+        bottom: 100px;
+        right: 10px;
+        font-size: 3em;
+        z-index: 9999;
+        height: 50px;
+        width: 50px;
+        background-color: #f79e20;
+        text-align: center;
+        border-radius: 50px;
+    }
+  }
+ 
+/* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    .hero-banner .details {
+        padding:12rem 0;
+    }
+    .hero-banner .hero-main-topic {
+        font-size: 2.1rem;
+        font-weight: 800;
+    }
+    .hero-banner .hero-sub-topic {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+  }
+
+/* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+    .hero-banner .details {
+        padding:9rem 0;
+    }
+    .hero-banner .hero-main-topic {
+        font-size: 2.1rem;
+        font-weight: 800;
+    }
+    .hero-banner .hero-sub-topic {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+ }
+ 
+/* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .hero-banner .details {
+        padding:9rem 0;
+    }
+    .hero-banner .hero-main-topic {
+        font-size: 2.4rem;
+        font-weight: 800;
+    }
+    .hero-banner .hero-sub-topic {
+        font-size: 1.9rem;
+        font-weight: 400;
+    }
+  }
+ 
